@@ -1,0 +1,16 @@
+**Criando uma estrutura para upload de arquivos**
+
+Vamos criar uma estrutura com os seguintes componentes:
+
+    - Um container para um app gradio-visao que irá apresentar a interface para a seleção de um arquivo de imagem para upload
+    - Um container api-visao que será responsável por receber o nosso arquivo, reconhecer o seu conteúdo e armazená-lo em nosso serviço de armazenamento
+    - Um container api-armazenamento que irá salvar o arquivo em um volume compartilhado e gravar o registro em um banco de dados SQLite.
+
+Passo-a-passo
+Vamos criar uma pasta para cada container:
+ - gradio-visao
+ - api-visao
+ - api-armazenamento
+
+Os conteúdos serão desenvolvidos durante a aula e ficarão disponibilizados em nosso repositório github.
+
