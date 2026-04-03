@@ -38,9 +38,9 @@ services:
   api-visao:
     build:
       context: api-visao
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     ports:
-      - "8081:8018"
+      - "8081:8081"
     depends_on:
       - api-armazenamento
 
@@ -49,9 +49,9 @@ services:
       context: api-armazenamento
       dockerfile: Dockerfile
     ports:
-      - "8082:8082"
+    - "8082:8082"
     volumes:
-      - dados-imagens:/dados
+    - dados-imagens:/dados
 
-  volumes:
-    dados-imagens:
+volumes:
+  dados-imagens:
