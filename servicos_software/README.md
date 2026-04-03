@@ -20,3 +20,22 @@ Dentro do primeiro container, iremos criar os seguintes arquivos:
 - app.py
 - requirements.txt
 
+utilizar o código disponivel em serviços_software_p/
+gradio-visao como modelos destes aqruivos
+
+**API VISÃO**
+Dentro do container api-visão, iremos criar os seguintes arquivos
+Dockerfile
+main.py
+requeriments.txt
+
+Utilizar o código disponivel em servicsos_softwar_p/api-visao como modelos destes arquivos.
+
+** API AMRAZENAMENTO **
+
+- Dockerfile
+- main.py
+- requeriments.txt
+
+
+
